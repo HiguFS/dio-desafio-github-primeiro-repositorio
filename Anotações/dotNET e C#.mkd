@@ -1,0 +1,37 @@
+# .Net
+
+Framework criado pela Microsoft que permite a comunicação entre várias linguagens que tem uma infraestrutura comum (CLI), entre elas o Visual Basic, C++, F# e C#.
+
+
+
+## Framework
+
+Conjunto de códigos prontos que facilita o desenvolvimento disponibilizando algumas bibliotecas.
+
+## C#
+
+Linguagem orientada objetos.
+
+## Solução
+
+Container para organizar projetos relacionados.
+
+## Diretórios
+
+Podem ser  vistos pelo gerenciador de soluções, acessado pelo menu exibir.
+
+## Gerenciador de soluções
+
+Utilizado para adicionar mais projetos, classes de projetos, diretórios e editar de forma geral.
+
+## Namespace
+
+Usado para organizar classes.
+
+Para usar uma classe de outro namespace, colocamos using no começo do código.
+
+Não pode haver duas classes de mesmo nome dentro de um namespace.
+
+Uma classe pode ter campos, propriedades, métodos e eventos dentro dela que são denominados membros.
+
+Quando uma classe é instanciada, essa instancia é chamada de objeto, e nesse objeto podem ser criados os valores de acordo com os campos de classe.
