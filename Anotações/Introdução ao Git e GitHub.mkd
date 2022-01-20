@@ -1,0 +1,37 @@
+# Introdução ao Git e GitHub
+
+Há três tipos básicos de objetos no Git, sendo eles:
+
+### Blobs
+
+Armazenam dados. Possuem SHA para o dado armazenado.
+
+### Tree
+
+Apontam para **Bloobs** ou outras **Trees**. Possui um SHA que é alterado caso a própria Tree seja alterada ou algum dos objetos para os quais ela aponta.
+
+### Commit
+
+Aponta para uma **Tree**, para um **Parente**,commit anterior a última alteração realizada, para o autor e para a mensagem. Possui um SHA que é alterado caso o próprio **commit** seja alterado ou alguma **Tree** para qual ele aponta.
+
+Possui **Timestamp**, registro da data e horário da última alteração.
+
+
+
+## SHA 
+
+Conjunto de funções hash criptográficas projetadas pela NSA. Em resumo é uma criptografia que identifica o GIT garantindo a segurança, pois qualquer alteração realizada gera um novo código SHA, identificando assim que o arquivo passou por alguma mudança.
+
+## Comandos
+
+**mkdir** - Cria diretório.
+
+**git commit** - Cria comentário.
+
+**cd** - Entra em diretório.
+
+**ls** - Lista pastas no diretório.
+
+**git status** - Verifica o status do git, informando em caso de erros.
+
+**git add** - Adiciona o arquivo identificado ao staged.
